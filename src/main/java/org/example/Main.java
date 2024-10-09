@@ -9,7 +9,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        /* Task 1
+        /*-------------------------  Task 1
 
 
         String password_key = "secret";
@@ -27,7 +27,7 @@ public class Main {
         }
         */
 
-        /* Task 2
+        /*-------------------------  Task 2
 
 
         int result;
@@ -44,7 +44,7 @@ public class Main {
         System.out.println("Result is: " + sum);
         */
 
-        /* Task 3
+        /*-------------------------  Task 3
 
 
         int result;
@@ -61,7 +61,7 @@ public class Main {
         System.out.println("Result is: " + sum);
         */
 
-        /* Task 4
+        /*-------------------------  Task 4
 
         System.out.println("Enter starting number: ");
         int startingNumber = scanner.nextInt();
@@ -80,7 +80,7 @@ public class Main {
 
         */
 
-        /* Task 5
+        /* ------------------------- Task 5
 
         int sum = 0;
         System.out.println("Input your number: ");
@@ -94,13 +94,13 @@ public class Main {
 
         */
 
-        /* Task 6
+        /* -------------------------  Task 6
 
         printText(4);
 
         */
 
-        /* Task 7
+        /*-------------------------  Task 7
 
         System.out.println("Input your number: ");
         int number = scanner.nextInt();
@@ -114,21 +114,21 @@ public class Main {
 
          */
 
-        /* Task 8
+        /*-------------------------  Task 8
 
         System.out.println("Input your number: ");
         int number = scanner.nextInt();
 
         for(int i = number; i > 0; i--) {
-            for(int j = 0; j < number -1; j++){
+            for(int j = i; j > 0; j--){
                 System.out.print("*");
             }
             System.out.println(" ");
         }
 
-     */
+        */
 
-        // Task 9
+        /*-------------------------  Task 9
 
         for(int i = 1; i <= 5; i++){
             for (int j = 1; j < i; j++){
@@ -136,7 +136,31 @@ public class Main {
             }
             System.out.println();
         }
+
+         */
+
+       //------------------------- Task 10
+
+        int lucky_number = 64;
+        while(true){
+
+            System.out.println("Input your choice: ");
+            int user_input = scanner.nextInt();
+
+            if(user_input == lucky_number){
+                System.out.println("Congratulations, you won! ");
+                break;
+            };
+
+            if(user_input < lucky_number) {
+
+                System.out.println("The number is higher!");
+
+            } else System.out.println("The number is lower!");
+
+        }
     }
+
     public static void printText(int number){
         for(int i = 0; i < number; i++){
             System.out.println("In the beginning there were the swamp, the hoe and Java.");
