@@ -18,7 +18,7 @@ public class Main {
            String password_input = scanner.nextLine();
 
            if(password_input.equals(password_key)){
-               System.out.println("Right, the password is: " + password_input);
+               System.out.println("Correct, the password is: " + password_input);
                break;
            }
 
