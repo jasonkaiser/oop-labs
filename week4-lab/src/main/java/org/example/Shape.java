@@ -77,7 +77,7 @@ class Circle extends Shape{
     }
 
     public void calculateArea(){
-        setArea(3.14*Math.pow(radius, 2));
+        setArea(Math.PI*Math.pow(radius, 2));
     }
 
     public double calculateCircumfrence(double pi,double radius){
