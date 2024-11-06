@@ -6,9 +6,33 @@ import java.util.HashMap;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
 
-        // Dictionary Class
+
+     public static void main(String[] args) {
+
+
+         Calculator calculator = new Calculator();
+         ReverseOrder reverse = new ReverseOrder();
+
+         ArrayList<Integer> ints = new ArrayList<>();
+         ArrayList<String> strings = new ArrayList<>();
+
+         ints.add(1);
+         ints.add(2);
+         ints.add(3);
+         ints.add(4);
+         ints.add(5);
+
+         strings.add("Test");
+         strings.add("Words");
+         strings.add("Jason");
+
+         calculator.sumOfEvenAndOddNumbers(ints);
+         reverse.reverseList(strings);
+         reverse.reverseList(ints);
+
+
+        /* Dictionary Class
 
         Dictionary dictionary = new Dictionary();
 
@@ -76,4 +100,6 @@ public class Main {
 
 
     }
+
+
 }
