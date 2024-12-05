@@ -1,0 +1,11 @@
+2024-12-05T17:45:12.006494500Z  |  Event Type: Logout  |  User ID: 79
+2024-12-05T17:45:12.033478200Z  |  Event Type: Error  |  User ID: 824
+2024-12-05T17:45:12.033478200Z  |  Event Type: Purchase  |  User ID: 637
+2024-12-05T17:45:12.033478200Z  |  Event Type: Logout  |  User ID: 909
+2024-12-05T17:45:12.033478200Z  |  Event Type: Login  |  User ID: 223
+2024-12-05T17:45:12.033478200Z  |  Event Type: Error  |  User ID: 343
+2024-12-05T17:45:12.033478200Z  |  Event Type: Error  |  User ID: 782
+2024-12-05T17:45:12.033478200Z  |  Event Type: Logout  |  User ID: 312
+2024-12-05T17:45:12.033478200Z  |  Event Type: Error  |  User ID: 339
+2024-12-05T17:45:12.033478200Z  |  Event Type: Login  |  User ID: 330
+2024-12-05T17:45:12.033478200Z  |  Event Type: Login  |  User ID: 954
