@@ -116,18 +116,22 @@ public class StudentSystem {
 
     public Student getStudentByHighestGPA(){
 
-        Student highestGPA = studentList.get(0);
+        try {
+            Student highestGPA = studentList.get(0);
 
-        for(Student student : studentList){
-            if(student.getGpa() > highestGPA.getGpa()){
+            for (Student student : studentList) {
+                if (student.getGpa() > highestGPA.getGpa()) {
 
-                highestGPA = student;
+                    highestGPA = student;
+
+                }
 
             }
 
+            return highestGPA;
+        } catch (Exception e) {
+            throw new EmptyStudentListException("This Student List is empty!");
         }
-
-        return highestGPA;
     }
 
     public Optional<Student> getStudentById(int id){
