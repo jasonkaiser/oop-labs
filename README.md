@@ -1,2 +1,2 @@
 # oop-labs
-OOP Java Course from IBU - All Lab Solutions
+OOP Java Course - All Lab Solutions
